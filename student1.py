@@ -4,7 +4,7 @@ class Student:
         self.name = name
         self.roll_number = roll_number
         self.grades = []  # Starts with an empty list for grades
-
+      
     def add_grade(self, grade):
         """Adds a new grade to the student's record."""
         if 0 <= grade <= 100:
@@ -20,6 +20,7 @@ class Student:
 
     def display_info(self):
         """Prints the student's details."""
+        print("Students Details.")
         print(f"Student Name: {self.name}")
         print(f"Roll Number:  {self.roll_number}")
         print(f"Grades:       {self.grades}")
